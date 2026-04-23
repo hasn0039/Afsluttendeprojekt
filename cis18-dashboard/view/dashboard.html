@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CIS18 Dashboard</title>
+
+    <!--  Sørg for dark-mode class er på html tidligt -->
+    <script>
+        if (localStorage.getItem("theme") === "dark") {
+            document.documentElement.classList.add("dark");
+        }
+    </script>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class', // Aktiverer dark mode via class
+        };
+    </script>
+
+    <!-- ✅ HTML2PDF til PDF-generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-white p-4">
+<div class="mb-4 text-right">
+    <span id="user-name" class="text-sm font-semibold"></span>
+    <a href="/logout" class="ml-4 text-blue-600 dark:text-blue-400 underline">Logout</a>
+</div>
+<div id="root"></div>
+<script src="/js/dashboard.js" defer></script>
+
+</body>
+</html>

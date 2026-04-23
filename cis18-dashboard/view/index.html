@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CIS 18 Controlsystem</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+<main class="min-h-screen flex flex-col items-center justify-center px-4 text-center">
+    <!-- Titel -->
+    <h1 class="text-4xl md:text-5xl font-extrabold mb-4 text-gray-900">
+        Welcome to CIS18 controlsystem
+    </h1>
+    <p class="text-lg md:text-xl text-gray-600 max-w-xl mb-10">
+        An intuitive tool for working with the CIS18 framework.
+    </p>
+
+    <!-- Video af dashboardet -->
+    <div class="shadow-xl rounded-xl overflow-hidden border border-gray-200 w-3/4 mb-10">
+        <video autoplay muted loop playsinline class="w-full h-auto">
+            <source src="/dashboard_video.mov" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </div>
+
+
+    <!-- Login-knap -->
+    <a href="/login" class="bg-slate-500 hover:bg-slate-400 text-white text-lg font-medium px-8 py-3 rounded-full transition duration-200">
+        Log in with Microsoft-account
+    </a>
+</main>
+
+</body>
+</html>

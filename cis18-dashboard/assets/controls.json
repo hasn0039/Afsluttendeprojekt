@@ -1,0 +1,1811 @@
+[
+  {
+    "id": "1",
+    "name": "Inventory and Control of Enterprise Assets",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "1.1",
+        "name": "1.1: Establish and Maintain Detailed Enterprise Asset Inventory",
+        "description": "Create and regularly update a comprehensive inventory of all devices capable of storing or processing data, including PCs, mobile devices, servers, and IoT devices, across physical, virtual, and cloud environments.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "1.2",
+        "name": "1.2: Address Unauthorized Assets",
+        "description": "Implement a process to identify and remove unauthorized devices from the network, ensuring that only approved assets are connected.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Respond",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "1.3",
+        "name": "1.3: Utilize an Active Directory Tool",
+        "description": "Employ an active discovery tool to detect devices connected to the enterprise network, scheduling scans daily or more frequently to maintain an up-to-date asset inventory.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "1.4",
+        "name": "1.4: Use Dynamic Host Configuration Protocol (DHCP) Logging to Updat Enterprise Asset Inventory",
+        "description": "Enable DHCP logging on all DHCP servers or IP address management tools to update the enterprise's asset inventory, reviewing logs weekly or more frequently.",
+        "status": "In Progress",
+        "fulfillment": 50,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "1.5",
+        "name": "1.5: Use a Passive Asset Discovery Tool",
+        "description": "Deploy a passive discovery tool to identify assets connected to the enterprise's network by monitoring network traffic, updating the asset inventory at least weekly.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Inventory and Control of Software Assets",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "2.1",
+        "name": "2.1: Establish and Maintain a Software Inventory",
+        "description": "Create and maintain an up-to-date inventory of all software installed on enterprise assets to ensure only authorized software is present.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "2.2",
+        "name": "2.2: Ensure Authorized Software is Currently Supported",
+        "description": "Ensure that only software currently supported by vendors is designated as authorized, removing or replacing unsupported software to reduce security risks.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "2.3",
+        "name": "2.3: Address Unauthorized Software",
+        "description": "Employ automated tools to track and manage software inventory, ensuring accuracy and completeness across all enterprise assets.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Respond",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "2.4",
+        "name": "2.4: Utilize Automated Software Inventory Tools",
+        "description": "Monitor and record changes to the software inventory to detect unauthorized additions or modifications.",
+        "status": "In Progress",
+        "fulfillment": 50,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "2.5",
+        "name": "2.5: Allowlist Authorized Software",
+        "description": "Link software inventory data with hardware asset inventory to maintain a comprehensive view of enterprise assets.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "2.6",
+        "name": "2.6: Allowlist Authorized Libraries ",
+        "description": "Identify and remove unauthorized software from enterprise assets, or document exceptions, to maintain control over the software environment.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "2.7",
+        "name": "2.7: Allowlist Authorized Scripts ",
+        "description": "Implement application whitelisting to ensure that only approved software can execute on enterprise assets, preventing unauthorized applications from running.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Data Protection",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "3.1",
+        "name": "3.1: Establish and Maintain a Data Management Process ",
+        "description": "Define and manage processes for classifying, handling, storing, and disposing of data based on sensitivity and business needs.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "3.2",
+        "name": "3.2: Establish and Maintain a Data Inventory",
+        "description": "Maintain an inventory of all sensitive or regulated data types, including location, format, and owner.",
+        "status": "In Progress",
+        "fulfillment": 25,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "3.3",
+        "name": "3.3: Configure Data Access Control Lists",
+        "description": "Use access control lists to ensure only authorized users and systems can access specific datasets.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "3.4",
+        "name": "3.4: Enforce Data Retention",
+        "description": "Implement data retention policies to ensure data is only stored for as long as necessary for business or legal reasons.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "3.5",
+        "name": "3.5: Securely Dispose of Data",
+        "description": "Use secure deletion methods to permanently remove data when it is no longer needed.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "3.6",
+        "name": "3.6: Encrypt data on End-User Devices",
+        "description": "Ensure data on laptops, mobile devices, and other endpoints is encrypted to prevent unauthorized access.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "3.7",
+        "name": "3.7: Establish and Maintain a Data Classification Scheme ",
+        "description": "Classify data based on sensitivity and importance, guiding how it is handled, stored, and protected.",
+        "status": "In Progress",
+        "fulfillment": 25,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "3.8",
+        "name": "3.8: Document Data Flows ",
+        "description": "Identify and document how sensitive data moves across systems and networks to support risk assessment and protection.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "3.9",
+        "name": "3.9: Encrypt Data on Removable Media ",
+        "description": "Use encryption to protect sensitive data stored on USB drives, external disks, and other removable media.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "3.10",
+        "name": "3.10: Encrypt Sensitive Data in Transit ",
+        "description": "Ensure that sensitive data is encrypted during transmission across public or untrusted networks.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "3.11",
+        "name": "3.11: Encrypt Sensitive Data at Rest",
+        "description": "Use encryption to protect sensitive data stored on servers, databases, and other storage systems.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "3.12",
+        "name": "3.12: Segment Data Processing and Storage Based on Sensitivity ",
+        "description": "Use network segmentation or isolated environments to separate processing of highly sensitive data from lower-risk data.",
+        "status": "In Progress",
+        "fulfillment": 25,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "3.13",
+        "name": "3.13: Deploy a Data Loss Prevention Solution ",
+        "description": "Use DLP tools to detect and prevent unauthorized transmission or exposure of sensitive data.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      },
+      {
+        "id": "3.14",
+        "name": "3.14: Log Sensitive Access  ",
+        "description": "Maintain logs of when and by whom sensitive data is accessed to support audits and detect unauthorized use.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Secure Configuration of Enterprise Assets and Software",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "4.1",
+        "name": "4.1: Establish and Maintain a Secure Configuration Process",
+        "description": "Develop and follow processes to configure systems securely and review settings regularly for compliance.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "4.2",
+        "name": "4.2: Establish and Maintain a Secure Configuration Process for Network Infrastructure",
+        "description": "Apply secure baseline configurations to routers, switches, firewalls, and other network devices, and review them periodically.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "4.3",
+        "name": "4.3: Configure Automatic Session Locking on Enterprise Assets",
+        "description": "Ensure that devices automatically lock sessions after a period of inactivity to reduce unauthorized access.",
+        "status": "In Progress",
+        "fulfillment": 25,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "4.4",
+        "name": "4.4: Implement and Manage a Firewall on Servers",
+        "description": "Install and configure host-based firewalls on servers to limit unwanted inbound and outbound traffic.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "4.5",
+        "name": "4.5: Implement and Manage a Firewall on End-User Devices",
+        "description": "Use local firewalls on laptops and workstations to help protect against unauthorized access.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "4.6",
+        "name": "4.6: Securely Manage Enterprise Assets and Software",
+        "description": "Ensure that all device management, including remote access and updates, is done securely using trusted protocols and tools.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "4.7",
+        "name": "4.7: Manage Default Accounts on Enterprise Assets and Software",
+        "description": "Disable or rename default accounts and change default passwords to reduce the risk of exploitation.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "4.8",
+        "name": "4.8: Uninstall or Disable Unnecessary Services on Enterprise Assets and Software",
+        "description": "Remove or disable unused software and services to reduce the attack surface of systems.",
+        "status": "In Progress",
+        "fulfillment": 75,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "4.9",
+        "name": "4.9: Configure Trusted DNS Servers on Enterprise Assets",
+        "description": "Set devices to use only approved internal or secure external DNS servers for name resolution.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "4.10",
+        "name": "4.10: Enforce Automatic Device Lockout on Portable End-User Devices",
+        "description": "Ensure that mobile and portable devices are configured to automatically lock when idle or not in use.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Respond",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "4.11",
+        "name": "4.11: Enforce Remote Wipe Capability on Portable End-User Devices",
+        "description": "Enable remote wipe features to delete data from lost or stolen mobile devices.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "4.12",
+        "name": "4.12: Seperate Enterprise Workspaces on Mobile End-User Devices",
+        "description": "Use containerization or separation tools to isolate enterprise apps and data from personal apps on mobile devices.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Account Management",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "5.1",
+        "name": "5.1: Establish and Maintain an Inventory of Accounts",
+        "description": "Keep an accurate and up-to-date inventory of all user and service accounts across enterprise systems.",
+        "status": "In Progress",
+        "fulfillment": 75,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "5.2",
+        "name": "5.2: Use Unique Passwords",
+        "description": "Ensure that every account has a unique password to prevent credential reuse across systems.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "5.3",
+        "name": "5.3: Disable Dormant Accounts",
+        "description": "Regularly identify and disable accounts that have not been used within a defined time period.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Respond",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "5.4",
+        "name": "5.4: Restrict Administrator Privileges to Dedicated Administrator Accounts",
+        "description": "Separate admin rights from standard user accounts to limit exposure and improve oversight.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "5.5",
+        "name": "5.5: Establish and Maintain an Inventory of Service Accounts",
+        "description": "Track and document service accounts used for system functions, including where and how they are used.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "5.6",
+        "name": "5.6: Centralize Account Management",
+        "description": "Manage account creation, modification, and removal centrally to improve security and oversight.",
+        "status": "In Progress",
+        "fulfillment": 25,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Access Control Management",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "6.1",
+        "name": "6.1: Establish an Access Granting Process",
+        "description": "Create a standardized process to approve and document user access based on role and need.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "6.2",
+        "name": "6.2: Establish an Access Revoking Process",
+        "description": "Ensure user access is promptly revoked when no longer needed, such as after termination or role change.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "6.3",
+        "name": "6.3: Require MFA for Externally-Exposed Applications",
+        "description": "Enforce multi-factor authentication for all external access to applications and services.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "6.4",
+        "name": "6.4: Require MFA for Remote Network Access",
+        "description": "Use multi-factor authentication to protect remote access to internal networks and systems.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "6.5",
+        "name": "6.5: Require MFA for Administrative Access",
+        "description": "Enforce MFA for all administrative access to prevent unauthorized changes to systems.",
+        "status": "In Progress",
+        "fulfillment": 75,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "6.6",
+        "name": "6.6: Establish and Maintain an Inventory of Authentication and Authorization Systems",
+        "description": "Document all systems used to manage user identities and access control across the organization.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "6.7",
+        "name": "6.7: Centrilize Access Control",
+        "description": "Use centralized access control systems to manage and enforce policies consistently across assets.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "6.8",
+        "name": "6.8: Define and Maintain Role-Based Access Control",
+        "description": "Assign user access based on roles and responsibilities to limit unnecessary permissions.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Continuous Vulnerability Management",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "7.1",
+        "name": "7.1: Establish and Maintain a Vulnerability Management Process",
+        "description": "Develop and follow a process for identifying, assessing, and remediating vulnerabilities across enterprise assets.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "7.2",
+        "name": "7.2: Establish and Maintain a Remediation Process",
+        "description": "Define timelines and responsibilities for remediating known vulnerabilities based on risk level.",
+        "status": "In Progress",
+        "fulfillment": 75,
+        "impactScore": 1,
+        "securityFunction": "Respond",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "7.3",
+        "name": "7.3: Perform Automated Operating System  Patch Management",
+        "description": "Use automated tools to regularly apply security patches to operating systems.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "7.4",
+        "name": "7.4: Perform Automated Application Patch Management",
+        "description": "Ensure that applications receive timely security updates using automated patching tools.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "7.5",
+        "name": "7.5: Perform Automated Vulnerability scans of Internal Enterprise Assets",
+        "description": "Conduct regular internal vulnerability scans to identify and address security gaps in systems.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "7.6",
+        "name": "7.6: Perform Automated Vulnerability scans of Internal Enterprise Assets",
+        "description": "Scan internet-facing systems regularly to detect and remediate vulnerabilities before exploitation.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "7.7",
+        "name": "7.7: Perform Automated Vulnerability scans of Internal Enterprise Assets",
+        "description": "Fix or mitigate identified vulnerabilities based on severity and business risk.",
+        "status": "In Progress",
+        "fulfillment": 75,
+        "impactScore": 1,
+        "securityFunction": "Respond",
+        "implementationGroup": "LG2",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Audit Log Management",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "8.1",
+        "name": "8.1: Establish and Maintain an Audit Log Management Process",
+        "description": "Define how audit logs are collected, stored, reviewed, and retained across all relevant systems.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "8.2",
+        "name": "8.2: Collect Audit Logs ",
+        "description": "Enable logging on all critical systems and applications to record security-relevant events.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "8.3",
+        "name": "8.3: Ensure Adequate Audit Log Storage",
+        "description": "Store logs in a secure location with enough capacity to meet retention and investigation needs.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "8.4",
+        "name": "8.4: Standardize Time Synchronization",
+        "description": "Use consistent time sources (e.g., NTP) across systems to ensure accurate log correlation.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "8.5",
+        "name": "8.5: Collect Detailed Audit Logs",
+        "description": "Capture detailed event information, including user actions, system changes, and authentication events.",
+        "status": "In Progress",
+        "fulfillment": 75,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "8.6",
+        "name": "8.6: Collect DNS Query Audit Logs",
+        "description": "Log DNS queries to help detect suspicious or unauthorized domain lookups.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "8.7",
+        "name": "8.7: Collect URL Request Audit Logs",
+        "description": "Record outbound web requests to monitor user activity and detect risky behavior.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "8.8",
+        "name": "8.8: Collect Command-Line Audit Logs",
+        "description": "Log command-line activity on servers and workstations to identify administrative or malicious actions.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "8.9",
+        "name": "8.9: Centralize Audit Logs",
+        "description": "Send logs to a central system for secure storage, analysis, and alerting.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "8.10",
+        "name": "8.10: Retain Audit Logs",
+        "description": "Keep logs for a defined period based on business, legal, and security requirements.",
+        "status": "In Progress",
+        "fulfillment": 50,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "8.11",
+        "name": "8.11: Conduct Audit Log Reviews",
+        "description": "Regularly review logs to detect anomalies, policy violations, or indicators of compromise.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "8.12",
+        "name": "8.12: Collect Service Provider Logs",
+        "description": "Ensure that third-party services generate and provide access to audit logs relevant to your environment.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Email and Web Browser Protections",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "9.1",
+        "name": "9.1: Ensure Use of Only Fully Supported Browser and Email Clients",
+        "description": "Require users to use browsers and email clients that receive security updates from the vendor.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "9.2",
+        "name": "9.2: Use DNS Filtering Services",
+        "description": "Route DNS requests through filtering services to block access to malicious or unwanted domains.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "9.3",
+        "name": "9.3: Maintain and Enforce Network-Based URL Filters",
+        "description": "Use web filtering tools to restrict access to risky or non-business-related websites.",
+        "status": "In Progress",
+        "fulfillment": 25,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "9.4",
+        "name": "9.4: Restrict Unnecessary or Unauthorized Browser and Email Client Extensions",
+        "description": "Limit the use of extensions to only those approved and necessary for business.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "9.5",
+        "name": "9.5: Implement DMARC",
+        "description": "Deploy Domain-based Message Authentication, Reporting, and Conformance to help prevent email spoofing.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "9.6",
+        "name": "9.6: Block Unnecessary File Types",
+        "description": "Prevent the download or delivery of file types commonly used in malware attacks, such as executables.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "9.7",
+        "name": "9.7: Deploy and Maintain Email Server Anti-Malware Protections",
+        "description": "Use anti-malware scanning on email servers to detect and block malicious attachments or links.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Malware Defenses",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "10.1",
+        "name": "10.1: Deploy and Maintain Anti-Malware Software",
+        "description": "Install anti-malware solutions on all enterprise assets to detect and block known threats.",
+        "status": "In Progress",
+        "fulfillment": 50,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "10.2",
+        "name": "10.2: Configure Automatic Anti-Malware Updates",
+        "description": "Ensure malware protection tools automatically receive the latest signatures and threat intelligence.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "10.3",
+        "name": "10.3: Disable Autorun and Autoplay for Removable Media",
+        "description": "Turn off autorun/autoplay features to prevent malware from executing when devices are connected.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "10.4",
+        "name": "10.4: Configure Automatic Anti-Malware Scanning of Removable Media",
+        "description": "Configure systems to automatically scan USB drives and other removable media for malware.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "10.5",
+        "name": "10.5: Enable Anti-Exploitation Features",
+        "description": "Use features like Data Execution Prevention (DEP) and Address Space Layout Randomization (ASLR) to limit exploitability.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "10.6",
+        "name": "10.6: Centrally Manage Anti-Malware Software",
+        "description": "Control and monitor anti-malware settings and updates from a centralized management system.",
+        "status": "In Progress",
+        "fulfillment": 50,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "10.7",
+        "name": "10.7: Use Behavior-Based Anti-Malware Software",
+        "description": "Employ tools that analyze behavior patterns to detect new or unknown malware.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Data Recovery",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "11.1",
+        "name": "11.1: Establish and Maintain a Data Recovery Process",
+        "description": "Develop and document procedures to recover data after an incident such as deletion, corruption, or ransomware.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Recover",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "11.2",
+        "name": "11.2: Perform Automated Backups",
+        "description": "Schedule automated backups of critical data to ensure recovery in case of data loss.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Recover",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "11.3",
+        "name": "11.3: Protect Recovery Data ",
+        "description": "Secure backup data with encryption and access controls to prevent unauthorized access or tampering.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "11.4",
+        "name": "11.4: Establish and Maintain an Isolated Instance of Recovery Data",
+        "description": "Store backups separately from the primary environment to protect against ransomware and other threats.",
+        "status": "In Progress",
+        "fulfillment": 25,
+        "impactScore": 1,
+        "securityFunction": "Recover",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "11.5",
+        "name": "11.5: Test Data Recovery",
+        "description": "Regularly test your ability to restore systems and data to validate that recovery processes work as expected.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Recover",
+        "implementationGroup": "LG2",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Network Infrastructure Management",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "12.1",
+        "name": "12.1: Ensure Network Infrastructure is Up-to-Date",
+        "description": "Keep all network devices updated with supported firmware and software versions to reduce vulnerabilities.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "12.2",
+        "name": "12.2: Establish and Maintain a Secure Network Architecture",
+        "description": "Design networks with segmentation and secure zones to limit the spread of attacks.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "12.3",
+        "name": "12.3: Securely Manage Network Infrastructure",
+        "description": "Use encrypted management protocols and restrict access to configuration interfaces.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "12.4",
+        "name": "12.4:Establish and Maintain Architecture Diagram(s) ",
+        "description": "Maintain accurate network diagrams to support troubleshooting, audits, and risk assessments.",
+        "status": "In Progress",
+        "fulfillment": 50,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "12.5",
+        "name": "12.5: Centrilize Network Authentication, Authorization, and Auditing (AAA)",
+        "description": "Control access to network devices using centralized AAA services to improve visibility and control.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "12.6",
+        "name": "12.6: Use of Secure Network Management and Communication Protocols",
+        "description": "Enforce encrypted protocols like SSH, SNMPv3, and HTTPS for managing network equipment.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "12.7",
+        "name": "12.7: Ensure Remote Devices Utilize a VPN and are connecting to an Enterprise's AAA Infrastructure",
+        "description": "Ensure remote users access the network only via a secure VPN that enforces enterprise access policies.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "12.8",
+        "name": "12.8: Establish and Maintain Dedicated Computing Resources for All Administrative Work",
+        "description": "Use dedicated and hardened workstations for administrative tasks to reduce exposure to threats.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Network Monitoring and Defenses",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "13.1",
+        "name": "13.1: Centrilize Security Event Alerting",
+        "description": "Send security alerts from all systems to a central platform for monitoring and response.",
+        "status": "In Progress",
+        "fulfillment": 75,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "13.2",
+        "name": "13.2: Deploy a Host-Based Intrusion Detection Solution",
+        "description": "Install intrusion detection tools on endpoints to detect suspicious activity.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "13.3",
+        "name": "13.3: Deploy a Network Intrusion Detection System",
+        "description": "Use NIDS to monitor network traffic for signs of malicious behavior or policy violations.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "13.4",
+        "name": "13.4: Perform Traffic Filtering Between Network Segments",
+        "description": "Control and monitor traffic between different parts of the network using firewalls or segmentation.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "13.5",
+        "name": "13.5: Manage Access Control for Remote Assets ",
+        "description": "Enforce access controls and policies for devices connecting from outside the enterprise network.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "13.6",
+        "name": "13.6: Collect Network Trafik Flow Logs ",
+        "description": "Log metadata about network traffic (e.g., source/destination, ports, protocol) for analysis.",
+        "status": "In Progress",
+        "fulfillment": 75,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "13.7",
+        "name": "13.7: Deploy a Host-Based Intrusion Prevention Solution ",
+        "description": "Use HIPS to detect and block attacks in real time on individual systems.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      },
+      {
+        "id": "13.8",
+        "name": "13.8: Deploy a Network Intrusion Prevention System ",
+        "description": "Use NIPS to automatically block known threats detected in network traffic.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      },
+      {
+        "id": "13.9",
+        "name": "13.9: Deploy Port-Level Access Control ",
+        "description": "Restrict network access at the switch port level using technologies like 802.1X.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      },
+      {
+        "id": "13.10",
+        "name": "13.10: Perform Application Layer Filtering ",
+        "description": "Filter traffic based on application protocols (e.g., HTTP, DNS) to block risky behaviors.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      },
+      {
+        "id": "13.11",
+        "name": "13.11: Tune Security Event Alerting Tresholds",
+        "description": "Adjust alert settings to reduce noise and prioritize meaningful security events..",
+        "status": "In Progress",
+        "fulfillment": 25,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Security Awareness and Skills Training",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "14.1",
+        "name": "14.1: Establish and Maintain a Security Awareness Program ",
+        "description": "Create a program to train users regularly on security risks, behaviors, and policies.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "14.2",
+        "name": "14.2: Train Workforce Members to Recognize Social Engineering Attacks",
+        "description": "Teach users to identify and report phishing, pretexting, and other social engineering tactics.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "14.3",
+        "name": "14.3: Train Workforce Members on Authentication Best Practices",
+        "description": "Educate users on creating strong passwords, using MFA, and managing credentials securely.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "14.4",
+        "name": "14.4: Train Workforce on Best Practices for Data Handling",
+        "description": "Instruct employees on how to classify, store, and transmit data securely.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "14.5",
+        "name": "14.5: Train Workforce Members on Causes of Unintentional Data Exposure",
+        "description": "Raise awareness of risky behaviors like misconfigurations or accidental sharing.",
+        "status": "In Progress",
+        "fulfillment": 25,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "14.6",
+        "name": "14.6: Train Workforce Members on Recognizing and Reporting Security Incidents",
+        "description": "Ensure all users know how and where to report suspected security issues.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "14.7",
+        "name": "14.7: Train Users on How to Identify and Report if their Enterprise Assets are Missing Security Updates",
+        "description": "Help users recognize when devices are missing patches or updates and how to respond.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "14.8",
+        "name": "14.8: Train Workforce on the Dangers of Connecting to and Transmitting Enterprise Data Over Insecure Networks",
+        "description": "Warn users against connecting to untrusted Wi-Fi and teach safe alternatives like VPNs",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "14.9",
+        "name": "14.9: Conduct Role-Specific Security Awareness and Skills Training",
+        "description": "Provide tailored security training based on an employee’s role and access level.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Service Provider Management",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "15.1",
+        "name": "15.1: Establish and Maintain an Inventory of Service Providers",
+        "description": "Track all third-party providers that process, store, or transmit organizational data.",
+        "status": "In Progress",
+        "fulfillment": 75,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "15.2",
+        "name": "15.2: Establish and Maintain a Service Provider Management Policy",
+        "description": "Document requirements for evaluating, onboarding, and managing external service providers.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "15.3",
+        "name": "15.3: Classify Service Providers",
+        "description": "Categorize providers based on the sensitivity of the data or services they handle.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "15.4",
+        "name": "15.4: Ensure Service Provider Contracts Include Security Requirements",
+        "description": "Include data protection, incident reporting, and audit rights in service provider agreements.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "15.5",
+        "name": "15.5: Assess Service Providers",
+        "description": "Periodically evaluate providers’ security posture through assessments or audits.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG3",
+        "comment": " "
+      },
+      {
+        "id": "15.6",
+        "name": "15.6: Monitor Service Providers",
+        "description": "Regularly review provider performance and security practices to ensure compliance.",
+        "status": "In Progress",
+        "fulfillment": 50,
+        "impactScore": 1,
+        "securityFunction": "Detect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      },
+      {
+        "id": "15.7",
+        "name": "15.7: Securely Decommission Service Providers",
+        "description": "Revoke access and ensure secure data removal when terminating provider relationships.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Application Software Security",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "16.1",
+        "name": "16.1: Establish and Maintain a Secure Application Development Process",
+        "description": "Define secure coding and testing practices to follow throughout the development lifecycle.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "16.2",
+        "name": "16.2: Establish and Maintain a Process to Accept and Address Software Vulnerabilities",
+        "description": "Create a process to receive, track, and remediate reported security flaws in applications.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "16.3",
+        "name": "16.3: Perform Root Cause Analysis on Security Vulnerabilities",
+        "description": "Analyze underlying issues in code or processes to prevent repeated vulnerabilities.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "16.4",
+        "name": "16.4: Establish and Manage an Inventory of Third-Party Software Components",
+        "description": "Maintain a list of external libraries and packages used in your applications.",
+        "status": "In Progress",
+        "fulfillment": 25,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "16.5",
+        "name": "16.5: Use Up-to-Date and Trusted Third-Party Software Components",
+        "description": "Ensure third-party components are vetted and kept up to date with security patches.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "16.6",
+        "name": "16.6: Establish and Maintain a Severity Rating System and Process for Application Vulnerabilities",
+        "description": "Prioritize fixes using a formal rating system based on risk and potential impact.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "16.7",
+        "name": "16.7: Use Standard Hardening Configuration Templates for Application Infrastructure",
+        "description": "Apply standard hardening templates to systems supporting application infrastructure.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "16.8",
+        "name": "16.8: Separate Production and Non-Production Systems",
+        "description": "Isolate dev/test environments from production to prevent accidental or malicious access.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "16.9",
+        "name": "16.9: Train Developers in Application Security Concepts and Secure Coding",
+        "description": "Ensure developers understand secure coding practices and common vulnerabilities.",
+        "status": "In Progress",
+        "fulfillment": 25,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "16.10",
+        "name": "16.10: Apply Secure Design Principles in Application Architectures",
+        "description": "Incorporate security at the architectural level during software design.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "16.11",
+        "name": "16.11: Leverage Vetted Modules or Services for Application Security Components",
+        "description": "Implement proven, tested modules for key security functions like authentication and encryption.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "16.12",
+        "name": "16.12: Implement Code-Level Security Checks",
+        "description": "Use automated tools to scan source code for flaws before deployment.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      },
+      {
+        "id": "16.13",
+        "name": "16.13: Conduct Application Penetration Testing",
+        "description": "Regularly test applications using ethical hacking techniques to identify weaknesses.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      },
+      {
+        "id": "16.14",
+        "name": "16.14: Conduct Threat Modeling",
+        "description": "Analyze potential threats to your applications to guide design and mitigation.",
+        "status": "In Progress",
+        "fulfillment": 50,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Incident Response Management",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "17.1",
+        "name": "17.1: Designate Personnel to Manage Incident Handling",
+        "description": "Assign staff responsible for managing and coordinating incident response efforts.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Respond",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "17.2",
+        "name": "17.2: Establish and Maintain Contact Information for Reporting Security Incidents",
+        "description": "Keep up-to-date contact info for reporting and escalating security incidents.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Respond",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "17.3",
+        "name": "17.3: Establish and Maintain an Enterprise Process for Reporting Incidents",
+        "description": "Create clear procedures for reporting security incidents internally and externally.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Respond",
+        "implementationGroup": "LG1",
+        "comment": " "
+      },
+      {
+        "id": "17.4",
+        "name": "17.4: Establish and Maintain an Incident Response Process",
+        "description": "Document steps for detecting, responding to, and recovering from incidents.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Respond",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "17.5",
+        "name": "17.5: Assign Key Roles and Responsibilities",
+        "description": "Define roles in the incident response process, including decision-makers and communicators.",
+        "status": "In Progress",
+        "fulfillment": 25,
+        "impactScore": 1,
+        "securityFunction": "Respond",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "17.6",
+        "name": "17.6: Define Mechanisms for Communicating During Incident Response",
+        "description": "Use secure and reliable methods to coordinate during security incidents.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Respond",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "17.7",
+        "name": "17.7: Conduct Routine Incident Response Exercises",
+        "description": "Test the organization’s ability to respond to incidents through regular simulations.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Recover",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "17.8",
+        "name": "17.8: Conduct Post-Incident Reviews",
+        "description": "After an incident, review what happened and improve the response process accordingly.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Recover",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "17.9",
+        "name": "17.9: Establish and Maintain Security Incident Thresholds",
+        "description": "Establish what qualifies as a security incident to ensure appropriate response.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Recover",
+        "implementationGroup": "LG3",
+        "comment": " "
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Penetration Testing",
+    "avgScore": 0,
+    "subControls": [
+      {
+        "id": "18.1",
+        "name": "18.1: Establish and Maintain a Penetration Testing Program",
+        "description": "Define how and when penetration testing should be performed to evaluate defenses.",
+        "status": "In Progress",
+        "fulfillment": 75,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "18.2",
+        "name": "18.2: Perform Periodic External Penetration Tests",
+        "description": "Test internet-facing systems for exploitable vulnerabilities at regular intervals.",
+        "status": "Planned",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "18.3",
+        "name": "18.3: Remediate Penetration Test Findings",
+        "description": "Fix or mitigate issues identified during penetration tests based on severity.",
+        "status": "Missing",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG2",
+        "comment": " "
+      },
+      {
+        "id": "18.4",
+        "name": "18.4: Validate Security Measures",
+        "description": "Use testing to confirm that security controls are effective and working as intended.",
+        "status": "Not Applicable",
+        "fulfillment": 0,
+        "impactScore": 1,
+        "securityFunction": "Protect",
+        "implementationGroup": "LG3",
+        "comment": " "
+      },
+      {
+        "id": "18.5",
+        "name": "18.5: Perform Periodic Internal Penetration Tests",
+        "description": "Simulate attacks from inside the network to assess lateral movement and internal risks.",
+        "status": "Implemented",
+        "fulfillment": 100,
+        "impactScore": 1,
+        "securityFunction": "Identify",
+        "implementationGroup": "LG3",
+        "comment": "hej"
+      }
+    ]
+  }
+]
