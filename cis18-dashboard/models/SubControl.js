@@ -11,7 +11,7 @@ const SubControlSchema = new mongoose.Schema({
         comment: String,
     }, 
     {
-    timestamps: true // Automatisk createdAt og updatedAt
+        timestamps: true // Automatisk createdAt og updatedAt
     }
 
 );
