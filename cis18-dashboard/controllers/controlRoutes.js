@@ -3,9 +3,13 @@ const router = express.Router();
 const Control = require('../models/Control');
 const SubControl = require('../models/SubControl');
 
+const {
+    ensureAuthenticated,
+    authorizeRoles
+} = require('../middleware/authMiddleware');
+
 // Hent alle controls
-// Hent alle controls
-router.get('/', async (req, res) => {
+router.get('/', ensureAuthenticated, async (req, res) => {
     try {
         const controls = await Control.find({}).populate('subControls'); // <-- VIGTIGT
         res.json(controls);
@@ -15,8 +19,8 @@ router.get('/', async (req, res) => {
 });
 
 
-// Hent én control med id (ikke MongoDB _id)
-router.get('/:id', async (req, res) => {
+// Hent én control med id ikke MongoDB_id
+router.get('/:id', ensureAuthenticated, async (req, res) => {
     try {
         const control = await Control.findOne({ id: req.params.id });
         if (!control) return res.status(404).json({ error: 'Ikke fundet' });
@@ -28,7 +32,11 @@ router.get('/:id', async (req, res) => {
 
 
 
-router.put('/:controlId/subcontrols/:subId', async (req, res) => {
+router.put(
+    '/:controlId/subcontrols/:subId',
+    ensureAuthenticated,
+    authorizeRoles('admin', 'editor'),
+     async (req, res) => {
     try {
         const { subId } = req.params;
 
@@ -41,7 +49,8 @@ router.put('/:controlId/subcontrols/:subId', async (req, res) => {
             }
         });
 
-        const subControl = await SubControl.findByIdAndUpdate(subId, updateData, { new: true });
+        const subControl = await SubControl.findByIdAndUpdate(subId, updateData, { returnDocument: 'after' });
+        
         if (!subControl) return res.status(404).json({ error: 'SubControl ikke fundet' });
 
         res.json({ message: 'SubControl opdateret', subControl });
